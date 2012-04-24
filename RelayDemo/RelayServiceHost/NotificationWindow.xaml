@@ -1,0 +1,9 @@
+﻿<Window x:Class="RelayServiceHost.NotificationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NotificationWindow" Height="245" Width="300" ResizeMode="NoResize" MouseDown="Window_MouseDown" WindowStyle="None" ShowInTaskbar="False" Topmost="True">
+    <StackPanel VerticalAlignment="Stretch" Orientation="Vertical">
+        <TextBlock HorizontalAlignment="Left" Name="textUser" VerticalAlignment="Top" Width="120" Text="Simon says:" Margin="10,10,0,10" />       
+        <TextBlock HorizontalAlignment="Stretch" Name="textMessage" Text="Lorem ipsum." VerticalAlignment="Stretch" TextAlignment="Center" FontSize="24" TextWrapping="Wrap" Margin="0,20,0,0" />
+    </StackPanel>
+</Window>

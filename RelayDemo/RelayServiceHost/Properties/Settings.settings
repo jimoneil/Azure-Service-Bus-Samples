@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RelayServiceHost.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SBNamespace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">YOUR_SERVICE_BUS_NAMESPACE</Value>
+    </Setting>
+    <Setting Name="SBListenerCredentials" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SYMMETRIC_KEY_FOR_WPFSAMPLE_IDENTITY_FROM_ACS_PORTAL</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
