@@ -1,0 +1,9 @@
+﻿<Window x:Class="PubSubServiceHost.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PubSub Service Bus Demo" Height="354" Width="343" Topmost="True" Tag="0" Closed="Window_Closed" Background="Silver" ResizeMode="NoResize" Left="20" Top="20">
+    <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Button Content="Start Listening" HorizontalAlignment="Center" Margin="0,20" Name="btnServiceControl" VerticalAlignment="Center" Click="btnServiceControl_Click" Tag="0" FontSize="20" Padding="3" />
+        <ListBox Margin="10,0,10,0" Name="lbMessages" ItemsSource="{Binding}" VerticalAlignment="Stretch" Height="220" FontSize="14" />
+    </StackPanel>
+</Window>
